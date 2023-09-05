@@ -1,6 +1,6 @@
 body {
 
-    background:rgb(184, 97, 184);
+    background:rgb(49, 11, 49);
 
     color: black;
 
@@ -78,7 +78,7 @@ a {
 
 main {
 
-    background:rgb(245, 208, 219) ;
+    background:rgb(129, 85, 133) ;
 
     display: flex;
 
@@ -111,7 +111,7 @@ main {
 
 #interests {
 
-    border: 4px silver ridge;
+    border: 4px rgb(255, 255, 255) ridge;
 
     padding: 8px;
 
@@ -133,19 +133,19 @@ h2, h3 {
 }
 
 #portfolio li {
-    background: #fff;
+    background: #755e83;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: #9574e2;
 }
 
 #portfolio a {
     text-decoration: none;
-    color: #454545;
+    color: #000000;
 }
  /* responsive web design */
  @media screen and (min-width: 120px) and (max-width: 1080px) {

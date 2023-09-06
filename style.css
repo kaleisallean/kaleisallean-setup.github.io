@@ -24,7 +24,7 @@ body {
 
 nav {
 
-    background:black;
+    background:rgb(0, 0, 0);
 
    margin: 0 auto;
 
@@ -42,7 +42,7 @@ h1 {
 
     align-items: center;
 
-    color: white;
+    color: rgb(255, 255, 255);
 
     flex: 1;
 
@@ -68,7 +68,7 @@ a {
 
     text-decoration: none;
 
-    color: #fff;
+    color: #c087e5;
 
 }
 

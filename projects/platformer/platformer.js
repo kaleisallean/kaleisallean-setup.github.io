@@ -61,7 +61,7 @@ createPlatform(1300,150,100,20)
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-createCollectable( type 600,200)
+createCollectable
 
 
 

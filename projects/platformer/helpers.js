@@ -358,11 +358,11 @@ function projectileCollision() {
 }
 
 function deathOfPlayer() {
-  ctx.fillStyle = "grey";
+  ctx.fillStyle = "Purple";
   ctx.fillRect(
-    canvas.width / 4,
+    canvas.width / 5.5,
     canvas.height / 6,
-    canvas.width / 2,
+    canvas.width / 1.5,
     canvas.height / 2
   );
   ctx.fillStyle = "black";
@@ -375,7 +375,7 @@ function deathOfPlayer() {
   );
   ctx.font = "500% serif";
   ctx.fillText(
-    "Hit any key to restart",
+    " Hit any key to restart",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 3,
     (canvas.width / 16) * 14
@@ -411,7 +411,7 @@ function playerFrictionAndGravity() {
 
 function drawPlatforms() {
   for (var i = 0; i < platforms.length; i++) {
-    ctx.fillStyle = "grey";
+    ctx.fillStyle = "Black";
     ctx.fillRect(
       platforms[i].x,
       platforms[i].y,

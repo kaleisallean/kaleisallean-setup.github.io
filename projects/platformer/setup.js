@@ -91,7 +91,7 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "" },
+  database: { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmjbemZCzojXQ8WzW07w4dmD66DWTnCoptNTMqXGdUTWG5JGygWvYQccxuJ62Pepvw09g:https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/vampire-teeth-nicole-wilson.jpg&usqp=CAU" },
   diamond: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },

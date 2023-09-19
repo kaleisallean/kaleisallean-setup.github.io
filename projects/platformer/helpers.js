@@ -358,14 +358,14 @@ function projectileCollision() {
 }
 
 function deathOfPlayer() {
-  ctx.fillStyle = "Purple";
+  ctx.fillStyle = "black";
   ctx.fillRect(
     canvas.width / 5.5,
     canvas.height / 6,
     canvas.width / 1.5,
     canvas.height / 2
   );
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "white";
   ctx.font = "800% serif";
   ctx.fillText(
     "You Died LOL",
